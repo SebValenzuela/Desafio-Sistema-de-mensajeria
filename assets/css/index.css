@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_principal {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contactos {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactos_estado_usuario {
+    flex: 0 0 7.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil img {
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.perfil_botones {
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil_botones a {
+    margin: 0 15px 0 0;
+}
+
+.perfil_botones a i {
+    font-size: 25px;
+    color: black;
+}
+
+.contactos_nuevo_chat {
+    flex: 0 0 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px black !important;
+}
+
+.nuevo_chat {
+    text-align: center;
+}
+
+.nuevo_chat a {
+    background: rgb(172, 160, 290);
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.contactos_chats {
+    flex: 1 0 0;
+}
+
+.contactos_chats .list-contact {
+    flex-direction: column;
+}
+
+.lista_de_usuarios {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.lista_de_usuarios img {
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+}
+
+.principal {
+    background-color: #E8EBE4;
+    flex: 0 0 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal_cuerpo {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal_texto {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.principal_texto h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+
+.principal_texto p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 1.5rem;
+}
+
+.principal_logo img {
+    width: 250px;
+}
